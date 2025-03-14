@@ -1,0 +1,111 @@
+#background-homepage {
+            height: 100vh;
+}
+
+#left-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/bigData.jpg');
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+
+}
+
+#right-content {
+    background-color: #EEEEEE;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    #right-content {
+        padding: 1rem;
+    }
+}
+
+.text_shadow {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);}
+
+.text_shadow_low {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+.grey_black_col {
+    color: #5C5C5C
+}
+
+.main_title_col {
+    color: #3C3D37
+}
+
+.title_col {
+    color: #697565
+}
+
+.left_text_col {
+    color: #ECDFCC
+}
+
+.montserrat_text {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.text-hover {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.text-hover:hover {
+    transform: scale(1.005);
+    color: #697565
+}
+
+.text-hover-logo {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.text-hover-logo:hover {
+    transform: scale(1.1);
+    color: #697565
+}
+
+.image-hover-project {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.image-hover-project:hover {
+    transform: scale(1.01);
+}
+
+.project_img {
+    height: 120px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.project-text{
+    min-height: 180px
+}
+
+.link-hover {
+    transition: transform 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.link-hover:hover {
+    transform: scale(1.01);
+    font-weight: 400;
+}

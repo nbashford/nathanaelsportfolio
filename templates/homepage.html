@@ -1,0 +1,532 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="container-fluid d-flex" style="padding-right: 0px !important;">
+    <div class="row w-100">
+
+        <!--Left Image-->
+        <div class="col-sm-4 col-12 vh-100 d-flex flex-column" id="left-image" style="background-color: rgba(0, 0, 0, 0.5);">
+                <div class="d-flex flex-column justify-content-between py-4 pr-4 my-4 mr-2 h-100">
+                    <div class="content-section">
+                        <div>
+                            <img src="/static/images/Screenshot%202024-10-15%20at%2019.17.33.png"
+                                 class="rounded-circle img-fluid my-4 mx-auto d-block"
+                                 style="max-width: 70%; height: auto;">
+                        </div>
+                        <h3 class="mb-4 px-4 pt-0 text-center fw-bold text_shadow left_text_col montserrat_text">
+                            Mr Nathanael Bashford
+                        </h3>
+                        <h5 class="mb-4 px-4 pt-0 text-center fw-semibold text_shadow left_text_col montserrat_text">
+                            MPharm | MSc CS &amp; Data Analytics
+                        </h5>
+                        <h5 class="mb-4 px-4 pt-0 text-center fw-semibold text_shadow left_text_col montserrat_text">
+                            Pharmacist | Computer &amp; Data Scientist
+                        </h5>
+
+                    </div>
+                    <div class="container m-4"></div>
+                    <div class="content-section">
+                        <h5 class="mb-2 px-2 pt-0 text-center text_shadow montserrat_text fw-medium text-break">
+                            nathanael@bashford.me
+                        </h5>
+                        <h5 class="mb-2 px-4 pt-0 text-center text_shadow montserrat_text fw-medium">
+                            +44 7449 547068
+                        </h5>
+                        <div class="d-flex justify-content-center align-items-center pb-3">
+                            <a href="http://linkedin.com/in/nathanael-bashford-nb1993" target="_blank" class="mx-2">
+                                <img src="/static//images/icons8-linkedin-96.png" class="text-hover-logo" height="45">
+                            </a>
+                            <a href="https://github.com/nbashford?tab=repositories" target="_blank" class="mx-2">
+                                <img src="/static//images/icons8-github-96.png" class="text-hover-logo" height="45">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Right content -->
+        <div class="col-sm-8" id="right-content">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container py-3 mb-4 offset-5">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" onclick="scrollToBottom()"
+                                   class="nav-link montserrat_text text-primary link-hover">Contact Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://linkedin.com/in/nathanael-bashford-nb1993"
+                                   target="_blank"
+                                   class="nav-link montserrat_text text-primary link-hover">LinkedIn</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/nbashford" target="_blank"
+                                   class="nav-link montserrat_text text-primary link-hover">GitHub</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link montserrat_text text-primary link-hover">CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Title -->
+            <div>
+                <h1 class="display-4 fw-bold mb-4 main_title_col montserrat_text">
+                    Bridging Healthcare <br>and Technology
+                </h1>
+                <hr class="my-4 grey_black_col text_shadow_low">
+            </div>
+
+            <!-- About me section -->
+            <div>
+                <h4 class="fw-bold title_col montserrat_text mb-2">From Healthcare to Tech</h4>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    I’m Nathanael, a UK-registered Pharmacist with experience as both a Pharmacy Manager
+                    and a Locum Pharmacist.
+                </p>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    Most healthcare professionals typically remain within a healthcare-focused career.
+                    However, the ability of technology to drive innovation, solve complex problems,
+                    and create solutions with a far-reaching impact inspired me to take a different path.
+                    Seeing how software can transform healthcare—making processes more efficient,
+                    improving patient care, and unlocking new possibilities—led me to pursue a master’s in
+                    Computer Science & Data Analytics and further develop my coding skills through specialised courses.
+                </p>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    At first glance, pharmacy and technology might seem like incompatible fields, but my background
+                    in healthcare has given me skills that translate directly into coding and software development.
+                    Attention to detail, problem-solving under pressure, strong communication, and the ability to
+                    analyse technical scientific information have all been essential in my transition into technology.
+                </p>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    As healthcare and technology become increasingly interconnected, I believe there is a growing
+                    need for healthcare professionals who understand computer science. Yet, this combination remains
+                    rare. With my clinical background and technical knowledge, I’m excited to be part of this
+                    transformation—developing real-world digital solutions that improve patient care and healthcare
+                    systems on a larger scale.
+                </p>
+                <hr class="my-4 grey_black_col">
+            </div>
+
+            <!-- Experience and education section -->
+            <div>
+                <h4 class="fw-bold title_col montserrat_text mb-2">Experience &amp; Education</h4>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    My healthcare career began at the University of Hertfordshire, where I studied Pharmacy and
+                    completed my pre-registration training at Hull University Teaching Hospitals NHS Trust.
+                    I then spent three years as a Pharmacy Manager in Scarborough, leading teams, managing operations,
+                    and implementing new services.
+                </p>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    Since then, I have worked as a Locum Pharmacist across the UK, adapting to new environments while
+                    ensuring safe, efficient operations and high-quality patient care.
+                </p>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                Alongside my pharmacy career, I pursued my passion for technology, earning a master’s in Computer
+                    Science & Data Analytics and completing specialized coding courses in AI, software development,
+                    and data analysis.
+                </p>
+                <h5 class="fw-semibold grey_black_col montserrat_text pt-2 mb-3">Education</h5>
+                <ul>
+                    <li class="fw-normal grey_black_col montserrat_text mb-2">
+                        <b class="title_col">Master of Pharmacy (MPharm)</b> – University of Hertfordshire (2015)
+                    </li>
+                    <li class="fw-normal grey_black_col montserrat_text mb-2">
+                        <b class="title_col">Master of Science (MSc) in Computer Science &amp; Data Analytics</b>
+                        – University of York (2024)
+                    </li>
+                    <li class="fw-normal grey_black_col montserrat_text">
+                        <b class="title_col">100 Days of Code</b> – Python Bootcamp (2025)
+                    </li>
+                </ul>
+
+                <h5 class="fw-semibold grey_black_col montserrat_text pt-2 mb-3">Experience</h5>
+                <ul>
+                    <li class="fw-normal grey_black_col montserrat_text mb-2">
+                        <b class="title_col">Pharmacy Manager &amp; Locum Pharmacist</b><br>
+                        I have worked as a Pharmacy Manager and Locum Pharmacist across the UK,
+                        managing healthcare services, optimising operations, and ensuring
+                        patient safety.
+                    </li>
+                    <li class="fw-normal grey_black_col montserrat_text">
+                        <b class="title_col">Data Science &amp; Software Development</b><br>
+                        I have applied my programming skills to data-driven projects,
+                        focusing on AI in healthcare, Flask web applications,
+                        and data analysis. <br>My projects, including real-world applications
+                        and research-driven solutions, are available on GitHub.
+                    </li>
+                </ul>
+                <hr class="my-4 grey_black_col">
+            </div>
+
+            <!-- Technical skills section -->
+            <div>
+                <h4 class="fw-bold title_col montserrat_text mb-2">Technical Skills</h4>
+                <p class="grey_black_col my-2 fw-normal montserrat_text">
+                    Through my transition into tech, I’ve developed a strong foundation in programming, data science,
+                    and web development. I'm proficient in multiple languages, frameworks, and tools, with a focus on
+                    machine learning, data analytics, building scalable solutions and writing clean, object-oriented
+                    code.
+                </p>
+
+                <p class="montserrat_text fw-normal grey_black_col mt-4 pl-3"><b class="title_col">
+                    Programming Languages:</b> Python, Java
+                </p>
+                <p class="montserrat_text fw-normal grey_black_col"><b class="title_col">
+                    Data Science &amp; AI:</b> Pandas, NumPy, Matplotlib, Seaborn, Machine Learning, Deep Learning
+                </p>
+                <p class="montserrat_text fw-normal grey_black_col"><b class="title_col">
+                    Databases:</b> SQL (PostgreSQL, MySQL, SQLite), MongoDBL
+                </p>
+                <p class="montserrat_text fw-normal grey_black_col"><b class="title_col">
+                    Web Development:</b> Flask, Bootstrap, REST APIs, HTML, CSS
+                </p>
+                <p class="montserrat_text fw-normal grey_black_col"><b class="title_col">
+                    APIs &amp; Web Scraping:</b> RESTful APIs, Requests, BeautifulSoup, Selenium
+                </p>
+                <p class="montserrat_text fw-normal grey_black_col mb-4"><b class="title_col">
+                    Tools & Software:</b> Git, GitHub, Unit Testing, Jupyter, PyCharm, Eclipse
+                </p>
+                <hr class="my-4 grey_black_col">
+            </div>
+
+            <!-- Projects and portfolio section -->
+            <div>
+                <h4 class="mb-4 fw-bold grey_black_col title_col montserrat_text">Projects &amp; Portfolio</h4>
+                <p class="montserrat_text fw-normal grey_black_col mb-4">Below highlights some projects I’ve worked
+                    on, with links to my GitHub, covering areas such as software development, data analysis,
+                    machine learning and web development.
+                </p>
+
+                <!--York Uni project-->
+                <h5 class="fw-bold grey_black_col montserrat_text mb-4 text-center">Research Project -
+                    York University
+                </h5>
+
+                 <div class="container-flex d-flex mb-3">
+                     <div class="row w-100">
+
+                         <div class="col-xl-4 col-lg-8 col-10 mx-auto text-center pb-3 px-2">
+                            <a href="https://github.com/nbashford/Case-Study---Covid-19-Forecasting-with-Reddit-data-"
+                               target="_blank" class="image-hover-project ">
+                                <img src="/static//images/covid_forecast_pic.png"
+                                     style="border-radius: 5%; max-width: 100%; height: auto;">
+                            </a>
+                         </div>
+
+                         <div class="col-xl-8 col-12 d-flex flex-column align-items-center text-start mx-auto">
+                            <a href="https://github.com/nbashford/Case-Study---Covid-19-Forecasting-with-Reddit-data-"
+                               target="_blank">
+                                <p class="mx-3 mb-2 grey_black_col fw-semibold montserrat_text text-hover">
+                                    Beyond the Tweet:
+                                    Exploring Reddit as an Alternative Resource for Disease Forecasting</p>
+                            </a>
+                            <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                This research explores Reddit’s potential for disease forecasting.
+                                Using NLP, BERT models and Random Forest Regression time-series analysis,
+                                Reddit posts were classified to predict U.S. Covid-19 incidence.
+                                Reddit-enhanced models improved forecasting accuracy, particularly for
+                                long-term predictions, revealing Reddit as a viable alternative data source for
+                                pandemic preparedness.
+                            </p>
+                         </div>
+                         <div class="col-12 d-flex flex-column align-items-center text-start">
+                            <hr class="grey_black_col" style="width: 50%">
+                         </div>
+                     </div>
+                </div>
+
+                <!--Data analysis projects-->
+                <h5 class="fw-bold grey_black_col montserrat_text mb-4 text-center">Data Analysis</h5>
+                <div class="container-flex d-flex mb-2 project-text">
+                    <div class="row w-100">
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/SpaceMissionDatasetAnalysis" target="_blank">
+                                    <img src="/static//images/space_walk.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/SpaceMissionDatasetAnalysis" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Space Mission Analysis</p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    Analysing all Space Mission data over time</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/Police-Shootings-and-Census-Data-Exploration"
+                                   target="_blank">
+                                    <img src="/static//images/police_light.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/Police-Shootings-and-Census-Data-Exploration"
+                                   target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Police Shooting Analysis
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    Extracting insights between U.S. Police Shootings and U.S. Census Data
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex flex-column align-items-center text-start">
+                            <hr class="grey_black_col" style="width: 50%">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Software App projects-->
+                <h5 class="fw-bold grey_black_col montserrat_text mb-4 text-center">Software / App Development</h5>
+                <div class="container-flex d-flex mb-2 project-text">
+                    <div class="row w-100">
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/PDFtoSpeech" target="_blank">
+                                    <img src="/static//images/microphone.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/PDFtoSpeech" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        PDF to Speech
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    TTS App that extracts text from PDFs and option to speak aloud
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/Watermark" target="_blank">
+                                    <img src="/static//images/camera_4.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/Watermark" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Photo Logo Editor
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    A photo editor app to add text, image or logo to a main image
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex flex-column align-items-center text-start">
+                            <hr class="grey_black_col" style="width: 50%">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Web development projects-->
+                <h5 class="fw-bold grey_black_col montserrat_text mb-4 text-center">Flask Web Development</h5>
+                <div class="container-flex d-flex mb-2 project-text">
+                    <div class="row w-100">
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/BestUkCafesWebsite" target="_blank"
+                                   style="width: 50%;">
+                                    <img src="/static//images/making_coffee.png"
+                                         class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/BestUkCafesWebsite" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Best UK Cafes Website
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    Flask App Website and SQLite. Search, filter, signup/login, save and add new cafes.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/ColourFromPicture" target="_blank"
+                                   style="width: 50%;">
+                                    <img src="/static//images/palette.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/ColourFromPicture" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Extract Picture Colours
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    Flask App Website that extracts an images most frequent colours
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex flex-column align-items-center text-start">
+                            <hr class="grey_black_col" style="width: 50%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scraping and Extraction projects-->
+                <h5 class="fw-bold grey_black_col montserrat_text mb-4 text-center">
+                    Web Scraping &amp; Data Extraction
+                </h5>
+                <div class="container-flex d-flex mb-2 project-text">
+                    <div class="row w-100">
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/SpaceMissionDataset" target="_blank"
+                                   style="width: 50%;">
+                                    <img src="/static//images/space_data_2.png"
+                                         class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/SpaceMissionDataset" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Space Mission Dataset
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    Web Scraping Space Mission Data to update and broaden the Kaggle dataset
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/CafeDataScraping" target="_blank"
+                                   style="width: 50%;">
+                                    <img src="/static//images/cafe_data.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/CafeDataScraping" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Best Cafes Dataset
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    Web Scraping Best UK Cafes data to create dataset for Best Cafes Flask Website
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex flex-column align-items-center text-start">
+                            <hr class="grey_black_col" style="width: 50%">
+                        </div>
+                    </div>
+                </div>
+                <!--Game Development projects-->
+                <h5 class="fw-bold grey_black_col montserrat_text mb-4 text-center">Game Development</h5>
+                <div class="container-flex d-flex mb-2 project-text">
+                    <div class="row w-100">
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/Breakout-Game" target="_blank"
+                                   style="width: 50%;">
+                                    <img src="/static//images/bricks.png" class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/Breakout-Game" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Breakout
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    80's style Breakout game
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-12 d-flex text-start align-items-center justify-content-center">
+                            <div class="col-6 text-center pb-4 pb-xl-0">
+                                <a href="https://github.com/nbashford/SpaceInvaders" target="_blank"
+                                   style="width: 50%;">
+                                    <img src="/static//images/highscore_3.png"
+                                         class="project_img image-hover-project"
+                                         style="border-radius: 5%; max-width: 100%; height: auto;">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://github.com/nbashford/SpaceInvaders" target="_blank">
+                                    <p class="mx-3 mb-1 grey_black_col fw-semibold montserrat_text text-hover">
+                                        Space Invaders
+                                    </p>
+                                </a>
+                                <p class="mx-3 grey_black_col fw-normal montserrat_text">
+                                    80's style Space Invaders game
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="my-4 grey_black_col">
+                    </div>
+                </div>
+            </div>
+
+
+                <div id="bottom" class="content-section d-flex flex-column justify-content-center align-items-center"
+                     style="margin-bottom: 10px;">
+                    <h4 class="fw-bold grey_black_col title_col montserrat_text">Get In Touch</h4>
+                    <p class="fw-normal grey_black_col montserrat_text text-center">
+                        Feel free to reach out if you have any questions or would like to connect.
+                        <br>I look forward to hearing from you!
+                    </p>
+                    <div class="col-8 col-12-small">
+                        <form method="POST" action="/">
+                            <div class="row">
+                                <div class="mb-3 col-6 col-12-xsmall">
+                                    <input type="text" class="form-control montserrat_text" id="nameInput"
+                                           name="nameInput" placeholder="Name">
+                                </div>
+                                <div class="mb-3 col-6 col-12-xsmall">
+                                    <input type="email" class="form-control montserrat_text" id="emailInput"
+                                           name="emailInput" placeholder="name@example.com">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    {% if email_sent %}
+                                    <textarea class="form-control montserrat_text" id="message" name="message"
+                                              placeholder="{{ email_sent }}" rows="4"></textarea>
+                                    {% else %}
+                                    <textarea class="form-control montserrat_text" id="message" name="message"
+                                              placeholder="Message" rows="4"></textarea>
+                                    {% endif %}
+
+                                </div>
+                                <div class="col-4 offset-4 mb-3">
+                                    <button type="submit" class="btn btn-primary mb-3 w-100 montserrat_text">
+                                        Send
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
