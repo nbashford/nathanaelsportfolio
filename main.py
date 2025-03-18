@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 from flask_bootstrap import Bootstrap5
 import os
 import email_funct
@@ -21,6 +21,14 @@ def homepage():
 
     # return render_template('strata.html', email_sent=sent)
     return render_template('homepage.html', email_sent=sent)
+
+
+@app.route('/download-cv')
+def download_cv():
+    return send_from_directory('static/downloads',
+                               'NathanaelBashfordCV.pdf',
+                               as_attachment=True)
+
 
 
 if __name__ == "__main__":
